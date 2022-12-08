@@ -1,0 +1,26 @@
+{
+	"name": "acme-colorized-theme",
+	"displayName": "acme-colorized-theme",
+	"description": "A colorized theme based on the acme editor",
+	"repository": {
+		"url": "https://github.com/baykovr/vscode-acme-colorized",
+		"type": "git"
+	},
+	"version": "0.0.1",
+	"publisher": "baykovr",
+	"engines": {
+		"vscode": "^1.25.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "acme-colorized",
+				"uiTheme": "vs",
+				"path": "./themes/acme-colorized-theme.json"
+			}
+		]
+	}
+}
